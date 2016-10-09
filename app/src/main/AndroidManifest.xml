@@ -33,7 +33,10 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".FilteringActivity" />
+        <activity
+            android:name=".FilteringActivity"
+            android:windowSoftInputMode = "adjustResize|adjustPan|stateHidden"
+            />
     </application>
 
 </manifest>
